@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoppy</title>
+    <link rel="icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <section id="header">
+
+        <a href="#"><img src="img/online-shoppy-logo.png" width="200px" class="logo" alt=""></a>
+        <!-- navbar  -->
+        <div>
+
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i id="lg-bag" class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"> <i class="far fa-times"></i></a>
+
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <!-- header section ends -->
+    <section id="page-header" class="about-header">
+
+        <h2>#let's_talk</h2>
+
+        <p>LEAVE A MESSAGE. We leave to hear from you!</p>
+
+    </section>
+
+    <!-- Table Section -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Page</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="far fa-times-circle"></i> <a href="#"></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Men's Fancy Design T-Shirt</td>
+                    <td>RS. 600</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS. 600</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i> <a href="#"></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Fancy Design Shirt with Flower Design</td>
+                    <td>RS. 550</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS. 550</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i> <a href="#"></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Traditonal Design Shirt</td>
+                    <td>RS. 700</td>
+                    <td><input type="number" value="1"></td>
+                    <td>RS. 700</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs. 1850</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td> <strong>Rs. 1850</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout..</button>
+        </div>
+    </section>
+    <!-- Newsletters Section Starts  -->
+    <section id="newletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign Up For Newletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <form action="connect.php" method="post">
+                <input type="text" placeholder="Your email address" name="em">
+                <button name="sb" class="normal">Register</button>
+            </form>
+        </div>
+    </section>
+    <!-- footer section starts  -->
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/online-shoppy-logo.png" class="logo" width="200px" alt="">
+            <h4>Contact</h4>
+            <p><b>Name:</b>Sachin Barvekar <br> Nikita Tambade <br> Amrita Zende</p>
+            <p><b>Address:</b> Mulshi Road, Bavdhan, Pune.</p>
+            <p><b>Contact:</b> 7588526911</p>
+            <p><b>Hours:</b> 10:00 - 10:00, Mon - Sat</p>
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p> &copy; copyright are reserved by <a href="#">Online Shoppy..</a></p>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
